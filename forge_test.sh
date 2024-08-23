@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Use absolute path to "t.sol" files in jobs.txt
-
 LogFile=job.log  # Job log file
-JobFile=jobs.txt  # Job file. One file per line
+JobFile=jobs.txt  # Jobs file. One "t.sol" path per line
 
 while read job; do
 
